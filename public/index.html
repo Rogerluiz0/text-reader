@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="">
-    <meta name="description" content="">
-    <meta name="copyright" content="">
-    <meta name="keywords" content="">
-    <meta name="robot" content="index">
-    <meta name="generator" content="">
-    <meta name="author" content="">
-    <title>Home</title>
-    
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-  </head>
-  <body>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
-    <h1>Welcome to your server!</h1>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="stylesheet" type="text/css" href="/styles/index.css">
+  <link rel="stylesheet" type="text/css" href="/styles/responsive.css">
 
-  </body>
+</head>
+<body>
+
+  <div class="container" class="flex">
+
+    <h1>Leitor de Texto</h1>
+
+    <section>
+      <p>Está cansado(a) de ter que ler textos <span>grandes</span> e <span>chatos</span>? Pois eu te apresento a solução mais simples para este <span>problema</span>!</p>
+    </section>
+
+    <main id="content-main" class="flex">
+
+      <div id="tex-content" contenteditable>Seu texto aqui</div>
+
+      <div id="buttons" class="flex">
+
+        <button id="speak">Falar</button>
+        <button id="stop">Parar</button>
+
+        <select name="select-speed">
+          <option value="1">1x</option>
+          <option value="2">2x</option>
+          <option value="3">3x</option>
+          <option value="4">4x</option>
+          <option value="5">5x</option>
+        </select>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Achou algum bug? Você pode contribuir com esse projeto no <a href="#" target="_blank">github</a>.</p>
+    </footer>
+
+  </div>
+  
+  <script src="/scripts/index.js" type="text/javascript"></script>
+</body>
 </html>

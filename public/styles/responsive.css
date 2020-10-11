@@ -1,0 +1,27 @@
+@media (min-width: 800px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  #tex-content {
+    width: 70%;
+  }
+
+  #buttons {
+    width: 70%;
+  }
+
+  #buttons button, #buttons select {
+    width: 10%;
+    cursor: pointer;
+  }
+
+  p {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  footer, section {
+    text-align: center;
+  }
+}

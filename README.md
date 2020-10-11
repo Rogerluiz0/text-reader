@@ -33,21 +33,17 @@
 
 ## :computer: Projeto
 
-[Descrição do projeto]
-
-## :checkered_flag: Updates
-
-[Relação dos updates]
+Um simples leitor de texto.
 
 ## :bookmark: Layout
 
-[Link para o figma ou para a home page da aplicação.]
+Você pode acessar o layout do projeto [aqui]()
 
 ## :bookmark_tabs: Ideias de implementação
 
 - [ ] Refatoração
-- [ ] ...
-- [ ] ...
+- [ ] Correção de bugs
+- [ ] Adicionar novas features
 
 ## :open_file_folder: Estrutura de diretórios
 
@@ -55,7 +51,6 @@
 projeto
   |-- .github 
   |-- public
-    |-- asests
     |-- pages
     |-- scripts
     |-- styles
@@ -65,7 +60,6 @@ projeto
       |-- index.js
     |-- controllers
       |-- index.js
-    |-- database
     |-- routes
       |-- routes.js
     |-- app.js

@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #fd951f;
+  --color-background: #130f0d;
+  --color-text: #f0f0f5;
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  /*border: 1px solid #F00;*/
+}
+
+html::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 0.2rem;
+}
+
+body {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+span, a {
+  color: var(--color-primary);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
