@@ -1,6 +1,4 @@
-<h1 align="center">
-  <img alt="Ícone do projeto" title="" src=".github/" width="" />
-</h1>
+<h1 align="center">Leitor de Texto</h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
@@ -10,12 +8,12 @@
 
 <div align="center">
   <h2 align="center">Desktop</h2>
-  <img src=".github/" alt="Exemplo da interface no desktop" style="width: 100%;">
+  <img src=".github/desktop.svg" alt="Exemplo da interface no desktop" style="width: 100%;">
 </div>
 
 <div align="center">
   <h2 align="center">Mobile</h2>
-  <img src=".github/" alt="Exemplo da interface no mobile" height="">
+  <img src=".github/mobile.svg" alt="Exemplo da interface no mobile" height="500px">
 </div>
 
 ## :gear: Requisítos
@@ -37,7 +35,7 @@ Um simples leitor de texto.
 
 ## :bookmark: Layout
 
-Você pode acessar o layout do projeto [aqui]()
+Você pode acessar o layout do projeto [aqui](https://text-reader.herokuapp.com/)
 
 ## :bookmark_tabs: Ideias de implementação
 
@@ -73,8 +71,8 @@ projeto
 
 ## :arrow_down: Instalação
 
-- `git clone [repositório do projeto]`;
-- `cd [diretório do projeto]`;
+- `git clone https://github.com/Rogerluiz0/text-reader.git`;
+- `cd text-reader`;
 - `npm install`;
 - `npm run dev`.
 
