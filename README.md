@@ -1,10 +1,8 @@
 <h1 align="center">Leitor de Texto</h1>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
-</p>
+<img alt="Version" src="https://img.shields.io/badge/author-roger3g-blue" style="display: inline;"> <img alt="Version" src="https://img.shields.io/badge/languages-3-blue" style="display: inline;"> <img alt="License" src="https://img.shields.io/badge/license-MIT-blue" style="display: inline;"> <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue" style="display: inline;">
 
-<h1 align="center">:camera_flash: Screenshots</h1>
+## Screenshots
 
 <div align="center">
   <h2 align="center">Desktop</h2>
@@ -16,7 +14,7 @@
   <img src=".github/mobile.svg" alt="Exemplo da interface no mobile" height="500px">
 </div>
 
-## :gear: Requisítos
+## Requisítos
 
 - [X] [Node.js](https://nodejs.org/en/) ( Obrigatório )
 - [X] [GIT](https://git-scm.com/) ( Opcional )
@@ -71,7 +69,7 @@ projeto
 
 ## :arrow_down: Instalação
 
-- `git clone https://github.com/Rogerluiz0/text-reader.git`;
+- `git clone https://github.com/roger3g/text-reader.git`;
 - `cd text-reader`;
 - `npm install`;
 - `npm run dev`.
