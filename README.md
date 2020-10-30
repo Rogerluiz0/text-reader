@@ -1,4 +1,4 @@
-<h1 align="center">Leitor de Texto</h1>
+# Text Reader
 
 <img src="https://img.shields.io/static/v1?label=author&message=roger3g&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=3&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=0.0.1&color=fd951f&labelColor=130f0d" style="display: inline;">
 
