@@ -24,7 +24,7 @@
 
 ## Project
 
-Robot to read texts
+Are you tired of reading texts? or do you want to read a text but are too lazy? how about a robot to read text to you?
 
 ## Layout
 
