@@ -1,6 +1,6 @@
 <h1 align="center">Leitor de Texto</h1>
 
-<img alt="Version" src="https://img.shields.io/badge/author-roger3g-blue" style="display: inline;"> <img alt="Version" src="https://img.shields.io/badge/languages-3-blue" style="display: inline;"> <img alt="License" src="https://img.shields.io/badge/license-MIT-blue" style="display: inline;"> <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue" style="display: inline;">
+<img src="https://img.shields.io/static/v1?label=author&message=roger3g&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=3&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=fd951f&labelColor=130f0d" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=version&message=0.0.1&color=fd951f&labelColor=130f0d" style="display: inline;">
 
 ## Screenshots
 
@@ -14,12 +14,7 @@
   <img src=".github/mobile.svg" alt="Exemplo da interface no mobile" height="500px">
 </div>
 
-## Requisítos
-
-- [X] [Node.js](https://nodejs.org/en/) ( Obrigatório )
-- [X] [GIT](https://git-scm.com/) ( Opcional )
-
-## :rocket: Tecnologias
+## Technology
 
 - [x] [Node.js](https://nodejs.org/en/)
 - [x] [Express.js](https://expressjs.com/)
@@ -27,37 +22,34 @@
 - [x] [Dotenv](https://www.npmjs.com/package/dotenv)
 - [x] [Nunjucks](https://mozilla.github.io/nunjucks/)
 
-## :computer: Projeto
+## Project
 
-Um simples leitor de texto.
+Robot to read texts
 
-## :bookmark: Layout
+## Layout
 
-Você pode acessar o layout do projeto [aqui](https://text-reader.herokuapp.com/)
+You can view the layout of this project by clicking [here](https://text-reader.herokuapp.com/)
 
-## :bookmark_tabs: Ideias de implementação
+## Implementation ideas
 
-- [ ] Refatoração
-- [ ] Correção de bugs
-- [ ] Adicionar novas features
+- [ ] Refactoring
+- [ ] Bug fixes
+- [ ] Add new features
 
-## :open_file_folder: Estrutura de diretórios
+## Directory structure
 
 ```
 projeto
   |-- .github 
-  |-- public
-    |-- pages
-    |-- scripts
-    |-- styles
+  |-- public/
+    |-- pages/
+    |-- scripts/
+    |-- styles/
     |-- index.html
   |-- src
-    |-- config
-      |-- index.js
-    |-- controllers
-      |-- index.js
-    |-- routes
-      |-- routes.js
+    |-- config/
+    |-- controllers/
+    |-- routes/
     |-- app.js
     |-- server.js
   |-- .env
@@ -67,22 +59,27 @@ projeto
   |-- README.md
 ```
 
-## :arrow_down: Instalação
+## Installation
 
 - `git clone https://github.com/roger3g/text-reader.git`;
 - `cd text-reader`;
 - `npm install`;
 - `npm run dev`.
 
-## :thinking: Como contribuir
+Requirements to run **locally**:
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- [ ] [Node.js](https://nodejs.org/en/) ( Required )
+- [ ] [GIT](https://git-scm.com/) ( Optional )
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+## How to contribute
 
-## :memo: Licença
+1. Fork this repository;
+2. Create a branch with your feature: **`git checkout -b my-feature`**;
+3. Commit your changes: **`git commit -m 'feat: My new feature'`**;
+4. Push to your branch: **`git push origin my-feature`**.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+After the merge of your pull request is done, you can delete your branch.
+
+## License
+
+This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
