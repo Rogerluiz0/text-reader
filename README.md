@@ -47,10 +47,7 @@ projeto
     |-- styles/
     |-- index.html
   |-- src
-    |-- config/
-    |-- controllers/
-    |-- routes/
-    |-- app.js
+    |-- config.js
     |-- server.js
   |-- .env
   |-- .gitignore
