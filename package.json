@@ -8,8 +8,8 @@
     "start": "node src/server.js"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/roger3g/text-reader.git"
   },
   "keywords": [],
   "author": {
