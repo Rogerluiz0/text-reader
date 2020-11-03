@@ -21,6 +21,7 @@
 - [Layout](#-layout)
 - [Updates](#-updates)
 - [Implementation ideas](#-implementation-ideas)
+- [Compatibility](#-compatibility)
 - [Directory structure](#-directory-structure)
 - [Installation](#-installation)
 - [How to contribute](#-how-to-contribute)
@@ -51,6 +52,17 @@ This project is constantly evolving, I am always testing new features on it.
 - [ ] Refactoring
 - [ ] Bug fixes
 - [ ] Add new features
+
+## ❓ Compatibility
+
+|Browsers|Compatible|
+|:--: | :---: |
+|Chrome|✔️|
+|Firefox|✔️|
+|Microsoft Edge|✔️|
+|Internet Explorer|❌|
+|Opera|❓|
+|Safari|✔️|
 
 ## 📂 Directory structure
 
