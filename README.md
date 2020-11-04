@@ -70,6 +70,7 @@ This project is constantly evolving, I am always testing new features on it.
 projeto
   |-- .github 
   |-- public/
+    |-- assets/
     |-- pages/
     |-- scripts/
     |-- styles/
