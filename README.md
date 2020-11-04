@@ -75,7 +75,6 @@ projeto
     |-- styles/
     |-- index.html
   |-- src
-    |-- config.js
     |-- server.js
   |-- .env
   |-- .gitignore

@@ -10,7 +10,6 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  /*border: 1px solid #F00;*/
 }
 
 html::-webkit-scrollbar {
@@ -28,17 +27,13 @@ body {
   background-color: var(--color-background);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 a {
   text-decoration: none;
+  color: var(--color-primary);
 }
 
-span, a {
-  color: var(--color-primary);
+h1 {
+  text-align: center;
 }
 
 .flex {
@@ -47,4 +42,96 @@ span, a {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.container {
+  padding: 5rem;
+}
+
+section, footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#tex-content {
+  width: 100%;
+  border: 0.3rem solid var(--color-primary);
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+#buttons {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#buttons #speak-and-pause, #buttons #language-and-speed {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#buttons #speak-and-pause button, #buttons #language-and-speed button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#buttons #speak-and-pause button img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#buttons #speak-and-pause {
+  margin-bottom: 3rem;
+}
+
+#buttons select {
+  padding: 1rem;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  width: 45%;
+}
+
+#buttons select, #buttons option {
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  #tex-content {
+    width: 70%;
+  }
+
+  #buttons {
+    width: 70%;
+  }
+
+  #buttons #speak-and-pause, #buttons #language-and-speed {
+    width: 40%;
+  }
+
+  #buttons #speak-and-pause {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  footer, section {
+    text-align: center;
+  }
 }

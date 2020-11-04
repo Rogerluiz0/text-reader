@@ -1,5 +1,4 @@
 require( 'dotenv' ).config()
-const config = require( './config.js' )
 
 const nunjucks = require( 'nunjucks' )
 const path = require( 'path' )
@@ -7,7 +6,7 @@ const path = require( 'path' )
 const express = require( 'express' )
 const app = express()
 
-const PORT = config.app.port
+const PORT = process.env.PORT || 3000
 
 nunjucks.configure( path.join( __dirname , '/../public/pages' ) , { 
   express: app,

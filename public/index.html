@@ -8,8 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <link rel="stylesheet" type="text/css" href="/styles/index.css">
-  <link rel="stylesheet" type="text/css" href="/styles/responsive.css">
+  <script src="/scripts/speak.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -24,16 +23,27 @@
 
       <div id="buttons" class="flex">
 
-        <button id="speak">Falar</button>
-        <button id="stop">Parar</button>
+        <div id="speak-and-pause" class="flex">
+          <button id="speak"> <img src="assets/play.svg" alt="Play"> </button>
+          <button id="stop"> <img src="assets/pause.svg" alt="Pause"> </button>
+        </div>
 
-        <select name="select-speed">
-          <option value="1">1x</option>
-          <option value="2">2x</option>
-          <option value="3">3x</option>
-          <option value="4">4x</option>
-          <option value="5">5x</option>
-        </select>
+        <div id="language-and-speed" class="flex">
+          <select name="select-language">
+            <option>Idioma</option>
+            <option value="pt-BR">Português</option>
+            <option value="en">Inglês</option>
+          </select>
+
+          <select name="select-speed">
+            <option>Velocidade</option>
+            <option value="1">1x</option>
+            <option value="2">2x</option>
+            <option value="3">3x</option>
+            <option value="4">4x</option>
+            <option value="5">5x</option>
+          </select>
+        </div>
 
       </div>
     </main>
@@ -44,6 +54,5 @@
 
   </div>
   
-  <script src="/scripts/index.js" type="text/javascript"></script>
 </body>
 </html>
