@@ -1,5 +1,3 @@
-# Text Reader
-
 <h1 align="center">
   <img alt="Ícone do projeto" title="" src=".github/robot.svg" width="250" />
 </h1>
