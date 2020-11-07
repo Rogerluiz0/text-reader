@@ -7,7 +7,6 @@
 </p>
 
 <div align="center">
-  <h2 align="center">📷 Screenshots</h2>
   <img src=".github/desktop.svg" alt="Exemplo da interface no desktop" style="width: 100%;">
 </div>
 
