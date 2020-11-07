@@ -31,6 +31,8 @@
 - [x] [Dotenv](https://www.npmjs.com/package/dotenv)
 - [x] [Nunjucks](https://mozilla.github.io/nunjucks/)
 
+**Note**: These technologies were used to deploy to heroku, they do **not reflect** in the direct development of the application.
+
 ## 💻 Project
 
 Are you tired of reading texts? or do you want to read a text but are too lazy? how about a robot to read text to you?
